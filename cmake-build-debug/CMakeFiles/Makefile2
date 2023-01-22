@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-b
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/K_tech.dir/all
+all: CMakeFiles/K-tech.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/K_tech.dir/clean
+clean: CMakeFiles/K-tech.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/K_tech.dir
+# Target rules for target CMakeFiles/K-tech.dir
 
 # All Build rule for target.
-CMakeFiles/K_tech.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/K_tech.dir/build.make CMakeFiles/K_tech.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/K_tech.dir/build.make CMakeFiles/K_tech.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target K_tech"
-.PHONY : CMakeFiles/K_tech.dir/all
+CMakeFiles/K-tech.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/K-tech.dir/build.make CMakeFiles/K-tech.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/K-tech.dir/build.make CMakeFiles/K-tech.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target K-tech"
+.PHONY : CMakeFiles/K-tech.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/K_tech.dir/rule: cmake_check_build_system
+CMakeFiles/K-tech.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/K_tech.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/K-tech.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/K_tech.dir/rule
+.PHONY : CMakeFiles/K-tech.dir/rule
 
 # Convenience name for target.
-K_tech: CMakeFiles/K_tech.dir/rule
-.PHONY : K_tech
+K-tech: CMakeFiles/K-tech.dir/rule
+.PHONY : K-tech
 
 # clean rule for target.
-CMakeFiles/K_tech.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/K_tech.dir/build.make CMakeFiles/K_tech.dir/clean
-.PHONY : CMakeFiles/K_tech.dir/clean
+CMakeFiles/K-tech.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/K-tech.dir/build.make CMakeFiles/K-tech.dir/clean
+.PHONY : CMakeFiles/K-tech.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

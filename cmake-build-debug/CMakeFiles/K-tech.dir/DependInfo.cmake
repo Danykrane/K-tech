@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/main.cpp" "CMakeFiles/K_tech.dir/main.cpp.o" "gcc" "CMakeFiles/K_tech.dir/main.cpp.o.d"
+  "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/main.cpp" "CMakeFiles/K-tech.dir/src/main.cpp.o" "gcc" "CMakeFiles/K-tech.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

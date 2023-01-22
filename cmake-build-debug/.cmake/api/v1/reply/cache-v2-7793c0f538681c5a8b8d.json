@@ -187,10 +187,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "/usr/bin/cc"
 		},
 		{
@@ -903,7 +903,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "K_tech"
+			"value" : "K-tech"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1186,7 +1186,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "K_tech_BINARY_DIR",
+			"name" : "K-tech_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1198,7 +1198,7 @@
 			"value" : "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug"
 		},
 		{
-			"name" : "K_tech_IS_TOP_LEVEL",
+			"name" : "K-tech_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1210,7 +1210,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "K_tech_SOURCE_DIR",
+			"name" : "K-tech_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1236,6 +1236,42 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/sbin/sysctl"
+		},
+		{
+			"name" : "Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug"
+		},
+		{
+			"name" : "Project_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech"
 		}
 	],
 	"kind" : "cache",

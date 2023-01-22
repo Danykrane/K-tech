@@ -1,5 +1,5 @@
-CMakeFiles/K_tech.dir/main.cpp.o: \
-  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/main.cpp \
+CMakeFiles/K-tech.dir/src/main.cpp.o: \
+  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config_site \

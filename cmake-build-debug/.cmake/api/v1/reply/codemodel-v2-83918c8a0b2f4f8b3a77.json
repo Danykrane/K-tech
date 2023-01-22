@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "K_tech",
+					"name" : "K-tech",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "K_tech::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-K_tech-Debug-80ce2f3ab9cfd69b609e.json",
-					"name" : "K_tech",
+					"id" : "K-tech::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-K-tech-Debug-1ed8dfc43f615333e8ed.json",
+					"name" : "K-tech",
 					"projectIndex" : 0
 				}
 			]
