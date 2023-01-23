@@ -10,10 +10,14 @@ using namespace std;
 class Data;
 
 class Folder{
-    Data *myfile;
+    unique_ptr<Data> myfile;
+//    Data *myfile;
 public:
-    void setPathToFile();
+    Folder(){
 
+    }
+    void setPathToFile();
+    ~Folder() = default;
 };
 
 class Data{

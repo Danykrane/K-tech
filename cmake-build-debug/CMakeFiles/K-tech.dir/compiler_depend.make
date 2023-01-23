@@ -416,11 +416,30 @@ CMakeFiles/K-tech.dir/src/main.cpp.o: /Users/artemgudzenko/Desktop/Less_1/c++/K-
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__split_buffer \
   /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/include/Interfaice_layer.h \
-  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/include/Data_layer.h
+  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/include/Data_layer.h \
+  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/Test01_str.cpp \
+  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/Test03.cpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iomanip
 
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stack:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/filesystem:
+
+/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/Test01_str.cpp:
 
 /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/include/Data_layer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__split_buffer:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
@@ -713,6 +732,8 @@ CMakeFiles/K-tech.dir/src/main.cpp.o: /Users/artemgudzenko/Desktop/Less_1/c++/K-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
@@ -1086,6 +1107,8 @@ CMakeFiles/K-tech.dir/src/main.cpp.o: /Users/artemgudzenko/Desktop/Less_1/c++/K-
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_intptr_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/deque:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_pthread/_pthread_types.h:
@@ -1158,6 +1181,8 @@ CMakeFiles/K-tech.dir/src/main.cpp.o: /Users/artemgudzenko/Desktop/Less_1/c++/K-
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h:
 
+/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/Test03.cpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
@@ -1205,6 +1230,8 @@ CMakeFiles/K-tech.dir/src/main.cpp.o: /Users/artemgudzenko/Desktop/Less_1/c++/K-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stdexcept:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/version:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iomanip:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
 

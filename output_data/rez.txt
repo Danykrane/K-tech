@@ -1,0 +1,27 @@
+ 
+ 
+ 
+        <name>Алексеев Иван Петрович
+        <date>1976-01-01
+        <hours-worked>25
+        <car-true>YES
+ 
+ 
+        <name>Петров Сергей Иванович
+        <date>1996-01-01
+        <hours-worked>8
+        <car-true>YES
+ 
+ 
+        <name>Колесников Иван Сергеевич
+        <date>2002-11-01
+        <hours-worked>8
+        <car-true>YES
+ 
+ 
+        <name>Осипов Алексей Иванович
+        <date>2002-11-21
+        <hours-worked>16
+        <car-true>YES
+ 
+ 
