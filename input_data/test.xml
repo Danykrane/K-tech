@@ -24,4 +24,22 @@
         <hours-worked>16</hours-worked>
         <car-true>YES</car-true>
     </param_text>
+    <param_text>
+        <name>Кукович Пуся Владимировна</name>
+        <date>2000-07-08</date>
+        <hours-worked>10</hours-worked>
+        <car-true>YES</car-true>
+    </param_text>
+    <param_text>
+        <name>Котик Гудзенко Валерьевич</name>
+        <date>2000-03-24</date>
+        <hours-worked>25</hours-worked>
+        <car-true>NO</car-true>
+    </param_text>
+    <param_text>
+        <name>Осипов Алексей Иванович</name>
+        <date>2002-11-21</date>
+        <hours-worked>16</hours-worked>
+        <car-true>YES</car-true>
+    </param_text>
 </Table>

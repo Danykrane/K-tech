@@ -7,33 +7,10 @@
 #include <algorithm>
 
 
-
-bool remove(char s1){
-    return (s1 == '\"');
-}
-bool remo(char s1){
-    return (s1 == '\"');
-
-}
-
-string editStr(string &str){
-    auto pos = (remove_if(str.begin(), str.end(), remo));
-    str.erase(pos, str.end());
-    return str;
-}
-
-template <typename T>
-T addcomma(T str, size_t &cnt, const int &size) {
-    size_t pos = str.find_first_not_of(" ");
-    str.erase(0, pos);
-    cnt++;
-    str = editStr(str);
-    return (cnt == 0) ?  "{\"" +str + "\"," : (cnt == size)? "\"" +str + "\"}" : "\"" +str + "\"," ;
-}
-
 template <typename T>
     T change(T str) {
     vector<string> checks = { "date", "name", "hours-worked", "car-true"};
+
     for (auto it : checks)
     {
         string begin = "<" + it + ">";
@@ -60,52 +37,10 @@ public:
     string getOutp(){
         return  out;
     }
-    bool file_edit2()
+
+    vector<int> file_edit()
     {
-
-        bool flag = false; //флаг проверки нахождения исходного файла
-        ifstream file;     //на чтение (исходный каталог)
-        file.open(input);
-        string str;
-
-        ifstream fin{input};
-        int size = count(istream_iterator<char>(fin >> noskipws), {}, '\n');
-
-        if (!file)
-        {
-            flag = true;
-            cout << "\nФайл не найден!!!!!!!\n"
-                 << endl;
-        }
-
-        else
-        {
-            ofstream mfile(out, ios::trunc | ios::out); //на запись (выходной каталог)
-            size_t cnt = 0;
-
-            while (getline(file, str))                                             //получение строки и ее изменение
-            {
-                if (cnt == 0) mfile<<"{";
-//                str = editStr(str);    //обработка строки
-//                cout << str<<endl;
-                str = addcomma(str, cnt ,size);
-                mfile << str<<endl;
-
-
-//
-//                mfile << str << endl; // запись в аутпут файл
-//                mfile << TMshot_string;
-            }
-            file.close();
-        }
-
-        return flag;
-    }
-
-
-    bool file_edit()
-    {
-
+        vector<int> pos;
         bool flag = false; //флаг проверки нахождения исходного файла
         ifstream file;     //на чтение (исходный каталог)
         file.open(input);
@@ -130,19 +65,46 @@ public:
             ofstream mfile(out, ios::trunc | ios::out); //на запись (выходной каталог)m
             while (getline(file, str))                                             //получение строки и ее изменение
             {
-//                str = editStr(str);    //обработка строки
-//                cout << str<<endl;
+
                 str = change(str);
+                if (str.length() == 0) pos.push_back(cnt);
+
                 cout << str<<endl;
                 mfile << str<<endl;
-//
-//                mfile << str << endl; // запись в аутпут файл
-//                mfile << TMshot_string;
+                cnt++;
+
             }
             file.close();
         }
 
-        return flag;
+        for (auto it = pos.begin() + 3; it != pos.end() ;it++)
+        {
+            if (*it + 1 == *(it+1)) {
+                pos.erase(it);
+            }
+        }
+
+        return pos;
+    }
+
+
+    void emptyLine(vector<int> pos)  {
+        string in = "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/output_data/rez4.txt";
+        string ou = "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/output_data/rez5.txt";
+
+        ifstream fin(in);
+        ofstream fout(ou, ios::trunc | ios::out);
+
+
+        string str;
+        int cnt = 0;
+
+        while(getline(fin, str))
+        {
+            if (find(pos.begin(), pos.end(), cnt) == pos.end()) fout <<str<<endl;
+            cnt++;
+        }
+        fin.close();
     }
 };
 

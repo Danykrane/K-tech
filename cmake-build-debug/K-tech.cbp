@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src">
+			<Option target="K-tech"/>
+		</Unit>
 		<Unit filename="/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/main.cpp">
 			<Option target="K-tech"/>
 		</Unit>

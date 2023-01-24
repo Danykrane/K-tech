@@ -3,4 +3,4 @@ project(K-tech)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(K-tech src/main.cpp)
+add_executable(K-tech src/main.cpp src)
