@@ -4,4 +4,6 @@
 
 #include "../include/Interfaice_layer.h"
 
-
+void Application::start() {
+    program.emptyLine(program.file_edit());
+}

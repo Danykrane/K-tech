@@ -1,5 +1,8 @@
 CMakeFiles/K-tech.dir/src/main.cpp.o: \
   /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/main.cpp \
+  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/../include/Interfaice_layer.h \
+  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/../include/Function_layer.h \
+  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/../include/Data_layer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config_site \
@@ -414,14 +417,10 @@ CMakeFiles/K-tech.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/../include/Interfaice_layer.h \
-  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/../include/Data_layer.h \
-  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/Test01_str.cpp \
-  /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/src/Test03.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iomanip
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector

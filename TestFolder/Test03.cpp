@@ -4,12 +4,16 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <string>
 #include <algorithm>
+#include <iterator>
+
+using namespace std;
 
 
 template <typename T>
     T change(T str) {
-    vector<string> checks = { "date", "name", "hours-worked", "car-true"};
+    const vector<string> checks = { "date", "name", "hours-worked", "car-true"};
 
     for (auto it : checks)
     {
