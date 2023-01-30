@@ -42,5 +42,5 @@ string Path::getInp()
 string Path::getOutp()
 {
 
-    return path_files[1] + "/rez.txt";
+    return path_files[1] + "/test.xml.001";
 }

@@ -75,7 +75,7 @@ vector<int> ChangeFile::file_edit()
 
 void ChangeFile::emptyLine(vector<int> pos)
 {
-    string rez = "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/to_delete/fin1.txt";
+    string rez = "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/output_data/out.txt";
     ifstream fin(out);
     ofstream fout(rez, ios::trunc | ios::out);
 
