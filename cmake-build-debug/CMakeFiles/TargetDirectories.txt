@@ -1,3 +1,0 @@
-/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug/CMakeFiles/K-tech.dir
-/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,2 @@
 Путь и название входного файла: /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/input_data/test.xml
-Путь выходного файла: /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/to_delete
+Путь проекта: /Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech

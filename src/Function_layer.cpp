@@ -46,9 +46,8 @@ vector<int> ChangeFile::file_edit()
         int size = count(istream_iterator<char>(fin >> noskipws), {}, '\n');
         int cnt = 0;
         cout << "Кол-во строк: " << size << endl;
-        cout << "Будем записывать в файл с расположением: " << out << endl;
-        ofstream mfile(out, ios::trunc | ios::out); // на запись (выходной каталог)m
-        while (getline(file, str))                  // получение строки и ее изменение
+        ofstream mfile(del_path, ios::trunc | ios::out); // на запись (выходной каталог)m
+        while (getline(file, str))                       // получение строки и ее изменение
         {
 
             str = change(str);
@@ -75,9 +74,8 @@ vector<int> ChangeFile::file_edit()
 
 void ChangeFile::emptyLine(vector<int> pos)
 {
-    string rez = "/Users/artemgudzenko/Desktop/Less_1/c++/K-tech/K-tech/output_data/out.txt";
-    ifstream fin(out);
-    ofstream fout(rez, ios::trunc | ios::out);
+    ifstream fin(del_path);
+    ofstream fout(out, ios::trunc | ios::out);
 
     string str;
     int cnt = 0;

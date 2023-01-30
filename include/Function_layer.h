@@ -16,7 +16,9 @@ class ChangeFile
     Path file;
     string input = file.getInp();
     string out = file.getOutp();
+    string del_path = file.getToDel();
 
+    //
 public:
     vector<int> file_edit();
     void emptyLine(vector<int> pos);

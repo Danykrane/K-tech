@@ -11,7 +11,6 @@
 #include <algorithm>
 #include <iterator>
 
-
 using namespace std;
 
 class Path
@@ -23,6 +22,7 @@ public:
 
     string getInp();
     string getOutp();
+    string getToDel(); //создание пути файла в папку to_delete
 };
 
 #endif // K_TECH_DATA_LAYER_H

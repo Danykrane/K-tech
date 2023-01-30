@@ -42,5 +42,10 @@ string Path::getInp()
 string Path::getOutp()
 {
 
-    return path_files[1] + "/test.xml.001";
+    return path_files[1] + "/output_data/out.txt";
+}
+
+string Path::getToDel()
+{
+    return path_files[1] + "/to_delete/test.xml.001";
 }
